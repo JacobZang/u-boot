@@ -1,0 +1,2 @@
+make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu- BL31=../rkbin-4c4e34a4cec9ff2ed25ea3a781653db3aeb0ce5c/bin/rk35/rk3588_bl31_v1.41.elf ROCKCHIP_TPL=../rkbin-4c4e34a4cec9ff2ed25ea3a781653db3aeb0ce5c/bin/rk35/rk3588_ddr_lp4_2112MHz_lp5_2736MHz_v1.13.bin evb-rk3588_defconfig -j12
+make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu- BL31=../rkbin-4c4e34a4cec9ff2ed25ea3a781653db3aeb0ce5c/bin/rk35/rk3588_bl31_v1.41.elf ROCKCHIP_TPL=../rkbin-4c4e34a4cec9ff2ed25ea3a781653db3aeb0ce5c/bin/rk35/rk3588_ddr_lp4_2112MHz_lp5_2736MHz_v1.13.bin -j12
